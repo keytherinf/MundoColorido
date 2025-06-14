@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fundo_quebra_cabeca"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtPalavra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BA + LA = ?"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnResponder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Falar Resposta"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>

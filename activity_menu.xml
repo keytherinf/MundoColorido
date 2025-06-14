@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo_quebra_cabeca"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnSilabas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sílabas"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnQuebraCabeca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quebra-Cabeças"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnFormas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formas"/>
+</LinearLayout>
